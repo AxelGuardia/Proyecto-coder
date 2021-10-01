@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+nav ul li {
+    display: flex;
+    margin: 5px;}
+.navegador {
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+}
+header{ height: 60vh;
+        background-color: rgb(0, 0, 0);
+        /*background-image: url(../img/mkt3.png);*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;}
+h1 {color:rgb(255, 255, 255)}
+.titularPage {
+    font-family: 'lato',sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+}
+.navegador li a {
+    color: rgb(255, 255, 255);
+    font-family: 'lato',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+ul { list-style-type: none;}
+ul li a {text-decoration: none;}
+/*main*/
+.ofertas {color: rgb(0, 0, 0);
+        font-family: 'lato', sans-serif;
+        font-size: 20px;
+        }
+#info2 {font-family: 'lato',sans-serif;
+        font-size: 12px;
+        font-style: italic;
+        margin-left: 10px;}
+span h3 {margin-left: 10px;}
+#info {display: block;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;}
+.pagos {padding: 20px;
+        margin: 50px;}
+.deal  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formasDePago {color: rgb(43, 92, 226);
+                text-transform: capitalize;
+                font-family: 'lato',sans-serif;
+                font-weight: 400;
+                font-size: 30px;}
+.offer img {transition: all 1s linear;}
+.offer img:hover {
+    width: 220px;
+    height: 220px;
+    
+
+}
+.descripcion {color: black;}
+p {
+    font-family: 'lato',sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+.offer {display: flex;
+        flex-direction: row;
+        padding: 5px;
+        margin: 10px}
+.offer div {
+    margin: 5px;
+}
+/*ENVIO*/
+.shipping {
+            height: 10vh;
+            background-color: rgb(206, 159, 250);
+            text-align: center;
+            animation:rotate-scale-up .65s linear 2s both
+}
+.shipping h2 {
+    transform: translate(0px,15px)
+}
+@keyframes rotate-scale-up{
+    0%{transform:scale(1) rotateZ(0)}
+    50%{transform:scale(2) rotateZ(180deg)}
+    100%{transform:scale(1) rotateZ(360deg)}}
